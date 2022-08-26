@@ -1,0 +1,49 @@
+{
+  "name": "website-test-sera",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "start": "next start -H 0.0.0.0 -p 80",
+    "lint": "next lint",
+    "cypress": "cypress open"
+    
+  },
+  "dependencies": {
+    "@etchteam/next-pagination": "^3.2.0",
+    "axios": "^0.24.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "clipboard-copy": "^4.0.1",
+    "js-cookie": "^3.0.1",
+    "next": "^12.1.1-canary.1",
+    "next-sitemap": "^3.0.5",
+    "query-string": "^7.1.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-facebook-pixel": "^1.0.4",
+    "react-google-recaptcha": "^2.1.0",
+    "react-linkedin-insight": "^0.1.3",
+    "react-webcam": "^6.0.0",
+    "remove": "^0.1.5",
+    "sass": "^1.45.0",
+    "socket.io-client": "^4.4.0"
+  },
+  "devDependencies": {
+    "@cypress/code-coverage": "^3.9.12",
+    "@types/js-cookie": "^3.0.1",
+    "@types/node": "16.11.12",
+    "@types/react": "17.0.37",
+    "@types/react-google-recaptcha": "^2.1.4",
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "babel-plugin-istanbul": "^6.1.1",
+    "cypress": "9.5.0",
+    "cypress-file-upload": "^5.0.8",
+    "eslint": "8.4.1",
+    "eslint-config-next": "12.0.7",
+    "eslint-plugin-react": "^7.28.0",
+    "typescript": "4.5.4"
+  }
+}

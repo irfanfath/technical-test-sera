@@ -1,0 +1,51 @@
+.notification {
+  top: 12px;
+  background: #2fab73;
+  color: #fff;
+  position: fixed;
+  width: 300px;
+  border-radius: 4px;
+  right: -100%;
+  top: 16px;
+  transition: 0.3s ease;
+  padding: 4px 0 4px 16px;
+  box-shadow: 0 0 10px #999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &--error {
+    background: #f44336;
+  }
+
+  &--warning {
+    background: gold;
+  }
+
+  &--active {
+    right: 16px;
+    transition: transform 0.6s ease-in-out;
+    animation: toast-in-right 0.7s;
+  }
+
+  &__close {
+    padding: 8px 16px;
+    background: transparent;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  &__inner {
+    width: calc(100% - 40px);
+  }
+}
+
+@keyframes toast-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "inline-react-svg",
+      {
+        "root": "./",
+        "alias": {
+          "svgs": "svgs"
+        }
+      }
+    ],
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "svgs": "svgs"
+        }
+      }
+    ]
+    // ["istanbul"]
+  ]
+}

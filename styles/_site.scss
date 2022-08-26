@@ -1,0 +1,9 @@
+.site:not(.site--home) {
+  background-image: url(/svg/bg-elips.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+
+  @media screen and (max-width: 768px) {
+    background-size: 50%;
+  }
+}

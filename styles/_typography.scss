@@ -1,0 +1,84 @@
+html {
+  scroll-behavior: smooth;
+  line-height: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 100%;
+}
+
+a {
+  color: inherit;
+}
+a,
+a:hover,
+a:active,
+svg path {
+  text-decoration: none;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  line-height: 125%;
+  font-weight: bold;
+}
+
+p {
+  line-height: 150%;
+  margin: 0;
+}
+
+b { font-weight: 500; }
+strong { font-weight: bold; }
+
+span,
+label,
+q {
+  line-height: 150%; 
+}
+
+hr { 
+  border: 0; 
+  height: 1px; 
+  background: #EEEEEE;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding-left: 1rem;
+}
+
+li {
+  line-height: 150%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  line-height: 125%;
+  padding: 10px;
+}
+
+button svg {
+  pointer-events: none;
+}

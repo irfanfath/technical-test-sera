@@ -1,0 +1,93 @@
+.button {
+  border: 0;
+  border-radius: 24px;
+  cursor: pointer;
+  padding: 12px 24px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  justify-content: center;
+  background: $color-primary;
+  color: #ffffff;
+  width: fit-content;
+  min-width: 120px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 5%), 0 2px 1px rgb(0 0 0 / 3%),
+    0 1px 1px rgb(0 0 0 / 4%);
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+
+  svg:not(.no-change) path {
+    stroke: #ffffff;
+  }
+
+  &--white {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: $color-primary;
+
+    svg path {
+      stroke: $color-primary;
+    }
+  }
+
+  &--outline {
+    border: 1px solid $color-primary;
+    background: transparent;
+    color: $color-primary;
+
+    svg path {
+      stroke: $color-primary;
+    }
+  }
+
+  &--outline-white {
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+
+    svg path {
+      stroke: #ffffff;
+    }
+  }
+  &--gray {
+    border: 1px solid $color-grey;
+    background: $color-grey;
+    color: $color-grey-text;
+    svg path {
+      stroke: $color-grey-text;
+    }
+  }
+
+  &--green {
+    background-color: #2fab73;
+    border: 1px solid #2fab73;
+    color: white;
+
+    svg path {
+      stroke: white;
+    }
+  }
+
+  &:hover {
+    background: #ffe3e3;
+    border-color: #ffe3e3;
+    color: $color-primary;
+    svg path {
+      stroke: $color-primary;
+    }
+  }
+
+  &:disabled {
+    border: none;
+    background-color: #dddddd;
+    color: #33333333;
+    cursor: not-allowed;
+    svg path {
+      stroke: $color-grey;
+    }
+  }
+}

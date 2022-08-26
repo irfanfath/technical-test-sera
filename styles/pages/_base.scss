@@ -1,0 +1,28 @@
+.page {
+  padding: 140px 0;
+
+  &__content {
+    h1 {
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      line-height: 125%;
+      margin-bottom: 1.25rem;
+    }
+
+    p {
+      line-height: 170%;
+      margin-bottom: 24px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    padding: 100px 0;
+  }
+}

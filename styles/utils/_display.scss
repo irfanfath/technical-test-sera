@@ -1,0 +1,36 @@
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+
+// LG: Large devices (desktops, 992px and down)
+@media screen and (max-width: 992px) {
+  .lg-show {
+    display: block;
+  }
+  .lg-hide {
+    display: none;
+  }
+}
+
+// MD: Medium devices (tablets, 768px and down)
+@media screen and (max-width: 768px) {
+  .md-show {
+    display: block;
+  }
+  .md-hide {
+    display: none;
+  }
+}
+
+// SM: Small devices (landscape phones, 576px and down)
+@media screen and (max-width: 576px) {
+  .sm-show {
+    display: block;
+  }
+  .sm-hide {
+    display: none;
+  }
+}

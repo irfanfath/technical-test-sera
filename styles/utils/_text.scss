@@ -1,0 +1,81 @@
+.text-14 {
+  font-size: 14px;
+}
+.text-12 {
+  font-size: 12px;
+}
+
+.text-red {
+  color: $color-primary;
+}
+
+.text-success {
+  color: #00cd6b;
+}
+
+.text-warning {
+  color: #ffc940;
+}
+
+.text-danger {
+  color: $color-primary;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+// text align
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+@media screen and (max-width: 992px) {
+  .lg-text-center {
+    text-align: center;
+  }
+
+  .lg-text-left {
+    text-align: left;
+  }
+
+  .lg-text-right {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .md-text-center {
+    text-align: center;
+  }
+
+  .md-text-left {
+    text-align: left;
+  }
+
+  .md-text-right {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .sm-text-center {
+    text-align: center;
+  }
+
+  .sm-text-left {
+    text-align: left;
+  }
+
+  .sm-text-right {
+    text-align: right;
+  }
+}

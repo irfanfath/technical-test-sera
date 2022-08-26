@@ -1,0 +1,71 @@
+.input {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  width: 100%;
+
+  &--copy {
+    white-space: nowrap;
+    text-overflow: clip;
+    width: 300px;
+    border: none;
+    overflow: hidden;
+    background-color: transparent;
+  }
+}
+textarea.input {
+  height: auto;
+  min-height: 160px;
+}
+
+.input-group {
+  position: relative;
+
+  &__right {
+    position: absolute;
+    z-index: 9;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 40px;
+    border: 0;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & + input {
+      padding-right: 40px;
+    }
+  }
+}
+
+.input-notif {
+  font-size: 12px;
+  display: block;
+  padding-top: 4px;
+  color: #6c6e76;
+
+  &--error {
+    color: red;
+  }
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
